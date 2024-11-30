@@ -207,6 +207,26 @@ ul.sobre-content {
 .section-title span {
 	color: #bf0a30;
 }
+
+.section-vermais {
+	background: #bf0a30;
+	padding: 10px 20px;
+	border-radius: 30px;
+	margin-top: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 30px;
+	transition: 0.5s;
+}
+
+.section-vermais:hover {
+	transform: scale(1.05);
+	opacity: 50%;
+}
+
+
+
+
 .sobre-right h2 {
 	margin-bottom: 3%;
 }
@@ -301,7 +321,7 @@ ul.contato-content {
 }
 .contato-content li i {
 	font-size: 50px;
-	color: #bf0a30;
+	color: #000000 ;
 	margin-bottom: 25px;
 }
 .contato-content li p {
