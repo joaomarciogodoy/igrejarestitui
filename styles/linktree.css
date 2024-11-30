@@ -9,6 +9,7 @@
 
 html {
   font-size: 14px;
+  overflow: hidden;
 }
 
 body {
@@ -62,6 +63,7 @@ header {
 
 header img {
   max-width: 120px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
