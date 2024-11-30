@@ -8,7 +8,6 @@
 }
 
 html {
-  height: 100vh;
   font-size: 14px;
 }
 
@@ -28,13 +27,32 @@ body {
   color: #fff;
 }
 
+p {
+  font-size: 1.5em;
+}
+
 a {
   text-decoration: none;
   color: #fff;
 }
 
-.degrade {
+a span {
+  font-size: 1.5em;
+}
+
+.degrade-vermelho {
   background: linear-gradient(to right, #fe4701, #ff0054);
+}
+
+.degrade-verde {
+  background: linear-gradient(to right, #25dd66, #3f7643);
+}
+
+.degrade-roxo {
+  background: linear-gradient(to right, #c82aba, #FF910B);
+}
+.degrade-azul {
+  background: linear-gradient(to right, #8aacf5, #3b5998);
 }
 
 header {
@@ -95,6 +113,6 @@ footer a.btn-footer {
   font-size: 2em;
   line-height: 60px;
   border-radius: 50%;
-  margin: 0 10px;
+  margin: 10px 10px;
   transition: 0.2s;
 }
