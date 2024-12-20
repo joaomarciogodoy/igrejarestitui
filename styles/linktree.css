@@ -17,6 +17,10 @@ body {
   height: 100%;
 }
 
+.logo-igreja{
+  border-radius: 50%;
+}
+
 .container {
   height: 100%;
   max-width: 550px;
